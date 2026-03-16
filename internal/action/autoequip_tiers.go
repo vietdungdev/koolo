@@ -169,6 +169,7 @@ var (
 
 			stat.LifeSteal:     10.0,
 			stat.ManaSteal:     10.0,
+			stat.MaxMana:       1.0, //good for leveling
 			stat.ChanceToBlock: -1.5,
 
 			stat.MaxDamage:          5.0,
