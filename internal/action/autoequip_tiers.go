@@ -167,10 +167,9 @@ var (
 			stat.IncreasedAttackSpeed: 2.0,
 			stat.DeadlyStrike:         1.0,
 
-			stat.LifeSteal: 10.0,
-			stat.ManaSteal: 10.0,
-			stat.MaxMana:   1.0,
-			stat.MagicFind: 1.0,
+			stat.LifeSteal:     10.0,
+			stat.ManaSteal:     10.0,
+			stat.ChanceToBlock: -1.5,
 
 			stat.MaxDamage:          5.0,
 			stat.MinDamage:          5.0,
