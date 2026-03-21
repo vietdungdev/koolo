@@ -564,11 +564,11 @@ func MoveTo(toFunc func() (data.Position, bool), options ...step.MoveOption) err
 				}
 			} else if ctx.Data.PlayerUnit.Area == area.ArcaneSanctuary {
 				//try to go to the end of the tp lane to find target position
-				tpPad, err := getArcaneNextTeleportPadPosition(blacklistedPads)
+				arcanePad, err := getArcaneNextTeleportPadPosition(blacklistedPads)
 				if err != nil {
 					return err
 				}
-				blacklistedPads = append(blacklistedPads, tpPad)
+				tpPad = arcanePad
 				continue
 			} else {
 				pathErrors++
